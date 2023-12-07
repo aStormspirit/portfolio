@@ -33,16 +33,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>Мой опыт</p>
+        <h2 className={styles.sectionHeadText}>Обо мне</h2>
       </motion.div>
       <motion.p
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn('', '', 0.1, 1)}>
-        Я веб разработчик с опытом работы с языками Typescript, JavaScript. Так
-        же эксперт в React, NodeJS разработке. Я быстро обучаюсь, хорошо
-        коммуницирую с людьми, и создаю User friendly интерфейсы которые помогаю
-        пользователям решать их проблемы. Давайте общаться и работать вместе
+        Я веб разработчик с опытом работы на языках Typescript и Python. Так же
+        эксперт в React, NodeJS разработке. Я быстро обучаюсь, хорошо
+        коммуницирую с людьми, и создаю качественные интерфейсы которые помогаю
+        пользователям решать их проблемы. Открыт к новым предложениям о
+        сотрудничестве
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
