@@ -71,8 +71,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           Эти проекты показывают мои умения и опыт на реальныйх примерах моей
           работы. Каждый проект имеет короткое описание с ссылкой на код и демо
-          версию. It reflects my ability to solve complex problems, work with
-          different technologies, and manage projects effectively.
+          версию. Это отражает мою способность решать сложные задачи, работать с разными технологиями и эффективно управлять проектами.
         </motion.p>
       </div>
 
