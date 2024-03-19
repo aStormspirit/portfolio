@@ -19,9 +19,9 @@ import {
   python,
   ts,
   wp,
-  carrent,
-  jobit,
-  tripguide,
+  skilla,
+  mydiary,
+  huberma,
 } from '../assets';
 
 export const navLinks = [
@@ -117,7 +117,7 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Февраль 2021 - Март 2022',
     points: [
-      'В качестве Веб-разработчик я приобрел доработки сайтов на платформе Wordpress и версткой макетов сайта.',
+      'В качестве Веб-разработчик я приобрел опыт доработки сайтов на платформе Wordpress и версткой макетов сайта.',
       'Мои услуги включали в себя настройку и оптимизацию сайтов, разработку и внедрение пользовательских функций, а также улучшение дизайна и интерфейса.',
       'Кроме того, я также предоставлял консультации и обучение основам JavaScript, помогая клиентам освоить этот язык программирования для дальнейшего развития и оптимизации их веб-проектов.',
       'Мой опыт работы в позволил мне развить навыки коммуникации и управления проектами, а также научил быть гибким и эффективным в самостоятельной работе.',
@@ -166,56 +166,76 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+      'Владимир оперативно откликнулся на заказ и быстро помог решить задачу с кодом. Услугами доволен. Рекомендую и сам при случае обращусь вновь. Успехов!.',
+    name: 'Сегрей',
+    designation: 'SEO specialist',
+    company: 'Профи.ру',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
+      'Я раньше не встречал веб разработчика, кто так заботился о своих клиетнах как Владимир, спасибо ему за это!',
+    name: 'Алина',
+    designation: 'Контент менджер',
+    company: 'Яндекс',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+  },
+  {
+    testimonial:
+      'После того как Владимир внедрил автоматизированную систему обзвона клиентов, наши продажи увеличились на 20%!',
+    name: 'Елена',
+    designation: 'Директор',
+    company: 'Все на чай',
     image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Интернет магазин Huberma',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Интернет магазин Huberma, позволяющий клиенту сделать заказ, из выбранной продукции, с оплатой и доставкой на дом',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: huberma,
+    source_code_link: 'https://www.huberma.ru/',
+  },
+  {
+    name: 'Мой дневничок',
+    description:
+      'Веб приложение которое позволяет пользователю добавлять свои заметки, фильтровать их по дате, сортировать и читать',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'mongoDB',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: mydiary,
+    source_code_link: 'https://my-diary-three.vercel.app/',
   },
   {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    name: 'Панель телефонии для колл-центра',
+    description: 'Панель для телефонии, учета и просмотра звонков колл-центра',
     tags: [
       {
         name: 'react',
@@ -226,33 +246,12 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
         name: 'css',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: skilla,
+    source_code_link: 'https://skilla-test-task-lime.vercel.app/',
   },
 ];
 
