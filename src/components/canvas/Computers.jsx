@@ -1,6 +1,7 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 import CanvasLoader from '../Loader';
 
@@ -55,6 +56,16 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
   }, []);
+
+  if (isMobile) {
+    return (
+      <DotLottieReact
+        src="https://lottie.host/de08fb25-e8cd-4495-a602-3d08b05557dd/vzb8RSiyyj.lottie"
+        loop
+        autoplay
+      />
+    );
+  }
 
   return (
     <Canvas

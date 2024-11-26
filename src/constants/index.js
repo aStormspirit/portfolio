@@ -192,9 +192,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Интернет магазин Huberma',
+    name: 'Интернет магазин ДомМяса',
     description:
-      'Интернет магазин Huberma, позволяющий клиенту сделать заказ, из выбранной продукции, с оплатой и доставкой на дом',
+      'Интернет магазин ДомМяса, позволяющий клиенту сделать заказ, из выбранной продукции, с оплатой и доставкой на дом',
     tags: [
       {
         name: 'nextjs',
@@ -210,10 +210,10 @@ const projects = [
       },
     ],
     image: huberma,
-    source_code_link: 'https://www.huberma.ru/',
+    source_code_link: 'https://kolbasamyaso.ru/',
   },
   {
-    name: 'Мой дневничок',
+    name: 'Веб-приложение Мой дневничок',
     description:
       'Веб приложение которое позволяет пользователю добавлять свои заметки, фильтровать их по дате, сортировать и читать',
     tags: [
@@ -234,15 +234,15 @@ const projects = [
     source_code_link: 'https://my-diary-three.vercel.app/',
   },
   {
-    name: 'Панель телефонии для колл-центра',
-    description: 'Панель для телефонии, учета и просмотра звонков колл-центра',
+    name: 'Сайт Натяжные потолки',
+    description: 'Сайт для компании занимающейся натяжными потолками',
     tags: [
       {
-        name: 'react',
+        name: 'TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'NextJs',
         color: 'green-text-gradient',
       },
       {
@@ -251,7 +251,7 @@ const projects = [
       },
     ],
     image: skilla,
-    source_code_link: 'https://skilla-test-task-lime.vercel.app/',
+    source_code_link: 'https://goodmaster.vercel.app/',
   },
 ];
 
